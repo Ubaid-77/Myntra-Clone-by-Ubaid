@@ -39,7 +39,7 @@ items.forEach(item => {
                 <div class="item-name">${item.item_name}</div>
                 <div class="price">
                     <span class="current-price">Rs ${item.current_price}</span>
-                    <span class="orignal-price">Rs ${item.original_price}</span>
+                    <span class="original-price">Rs ${item.original_price}</span>
                     <span class="discount">(${item.discount_percentage}% OFF)</span>
                 </div>
                 <button class="btn-add-bag" onclick="addToBag(${item.id})">Add to Bag</button>
@@ -48,3 +48,4 @@ items.forEach(item => {
 
 itemsContainerElement.innerHTML = innerHTML;
 }
+
