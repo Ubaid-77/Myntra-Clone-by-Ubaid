@@ -48,4 +48,3 @@ items.forEach(item => {
 
 itemsContainerElement.innerHTML = innerHTML;
 }
-
